@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portfolio</title>
+    <style>
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .body {
+            line-height: 1.6;
+            background-color: #fff;
+        }
+
+        header {
+            background: rgb(122, 122, 181);
+            padding: 10px 0;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #ddd;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        #home {
+            background: rgb(162, 234, 162);;
+            color:black;
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .skill-card {
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            width: 200px;
+            border-radius: 8px;
+        }
+       
+         th, td {
+        text-align: center;
+        background-color: rgb(162, 234, 162);
+        color:black;
+    
+        }
+        .skill-card {
+            background-color:rgb(122, 122, 181);
+            color: white;
+        }
+
+        #contact {
+            background-color:rgb(162, 234, 162);
+            color:black;
+        }
+
+            #profile{
+            background-color: rgb(122, 122, 181);
+            color:#fff;
+        }
+        #skills{
+            background-color:rgb(162, 234, 162);
+        }
+        #education{
+            background-color: rgb(122, 122, 181);
+            color:white;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        #social{
+            background-color:rgb(122, 122, 181);
+            color:white;
+        }
+        .education-container {
+            display: flex;
+            justify-content:center;  
+        }
+        footer {
+            background: black;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size:2rem;
+        }
+        span{  
+            color:black;
+            font-weight: bold;
+            text-align:center;
+        }
+            .education{
+            margin-bottom:20px;
+            display:flex;
+            justify-content:center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            padding: 20px;
+        }
+        h3{
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }    
+    </style>
+</head>
+<body>
+    <header id="navbar">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education Details</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#social">Social Media</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p><h2>Hi, I'm Rasagnya,I'm passionate about learning and development. I am eager to build a career in this web development.</h2></p>
+    </section>
+    <section id="profile">
+        <h1>Profile</h1>
+        <img SRC="c:\Users\rasag\Pictures\Saved Pictures\rasagnya.jpg" height="400" width="400" align="center" hspace="940" ><br>
+        <h1>Hi, I'm Rasagnya</h1>
+        <p><h2>I'm a web developer with a passion for creating modern, responsive, and user-friendly websites.
+            I have expertise in HTML, CSS, JavaScript. 
+            I enjoy solving complex problems and constantly learning new technologies to improve my craft. 
+            Feel free to explore my portfolio and contact me for collaboration opportunities.</h2></p><br>
+            <h1>Hobbies</h1>
+            <p><h2>My hobbies are listening music and drawing arts</h2></p>
+    </section>
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="skills-container">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">C</div>
+            <div class="skill-card">Data structures</div>
+            <div class="skill-card">Ms office</div>
+        </div>
+    </section>
+    <section id="education">
+        <h1>Education Details</h1> 
+     <div class="education-container">  
+            <div class="education-card">
+                <h2><span>Information Technology In Bachelor of Technology</span></h2>
+                <p><h2><span><left>Institution:</span>Aditya Institute of Technology and management,Tekkali</left></h2></p>
+                  <p><h2><span><left>Graduation year:</span>2023-27</left></h2></p>
+                  <p><h2><span><left>GPA:</span>7.3</left></h2></p><br>
+            <div class="education-card">
+                <h2><span>MPC In Intermediate</span></h2>
+                <p><h2><span><left>Institution:</span>Sri Chaitanya Junior College,Srikakulam</left></h2></p>
+                    <p><h2><span><left>Graduation year:</span>2021-23</left></h2></p>
+                    <p><h2><span><left>GPA:</span>8.14</left></h2></p><br>
+              </div>
+              <div class="education-card">
+                <h2><span>SSC</span></h2>
+                <p><h2><span><left>Institution:</span>Geetanjali school,Srikakulam</left></h2></p>
+                    <p><h2><span><left>Graduation year:</span>2020</left></h2></p>
+                    <p><h2><span><left>GPA:</span>9.8</left></h2></p>
+              </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>📧Email:<a href="mailto:rasagnyapeddini1@gamil.com">rasagnyapeddini1@gmail.com</a></p>
+        <p>Phone:+91 7036829636</p>
+    </section>
+    <section id="social">
+        <h1>Social Media Links</h1>
+        <p>Github:<a href="https://github.com/Rasnaa3">https://github.com/Rasnaa3</a></p>
+
+    </section>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
